@@ -86,7 +86,7 @@ function Login({ onLogin }){
                 class="Registration-Right-Password" 
                 type="password" /> <br />
                 
-                <button class="login-btn btn" >Register</button> <br />
+                <button class="login-btn-1 btn" >Register</button> <br />
                 <h4>Have an account</h4> <br />
                 <button class="Register-btn btn" onClick={showLogin}>Login</button>
             </div>
