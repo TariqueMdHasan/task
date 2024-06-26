@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+.Setting{
+    height: 100vh;
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+}
+.Setting-Header>h2{
+    font-family: "Open Sans", sans-serif;
+    font-size: 5vh;
+    font-weight: 600;
+    margin-left: 6vh;
+    margin-bottom: 1vh;
+}
+
+.Forms{
+    margin-top: 4vh;
+}
+.Forms>input{
+    width: 20vw;
+    height: 5vh;
+    border-radius: 0.7vh;
+    border: 1px solid #D0D0D0;
+    background-repeat: no-repeat;
+    background-size: 4.5vh;
+    outline: none;
+    padding-left: 4vw;
+    background-position-x: 1vh;
+    background-position-y: center;
+    margin-left: 2.5vw;
+    margin-top: 3vh;
+}
+.update-btn{
+    height: 5vh;
+    width: 24.4vw;
+    border-radius: 3vh;
+    border: none;
+    cursor: pointer;
+    background-color: #17A2B8;
+    margin-left: 2.5vw;
+    margin-top: 4vh;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    transition: all 0.3s ease 0s;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.2vh;
+}
+.update-btn:hover {
+    background-color: rgb(13, 111, 126);
+}
+.Name{
+    background: url(../../assets/Name.png);
+}
+.Email{
+    background: url(../../assets/Group.png);
+}
+.Password{
+    background: url(../../assets/lock.png);
+}
+input::placeholder{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.2vh;
+    color: #828282;
+}

@@ -1,0 +1,33 @@
+.boardMain{
+    height: 87vh;
+    max-width: 85vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow-y: hidden;
+    overflow-x: auto;
+    padding: 0 1vw;
+    scrollbar-width: thin; 
+    scrollbar-color: #b0c4de transparent; 
+}
+
+
+  
+  
+.boardMain::-webkit-scrollbar {
+    width: 8px; 
+    height: 8px;
+}
+
+.boardMain::-webkit-scrollbar-thumb {
+    background-color: #b0c4de; 
+    border-radius: 10px;
+}
+
+.boardMain::-webkit-scrollbar-track {
+    background-color: transparent; 
+}
+  
+  
+  

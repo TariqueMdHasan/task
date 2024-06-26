@@ -1,0 +1,35 @@
+.Main{
+    height: 81vh;
+    width: 23vw;
+    background-color: #EEF2F5;
+    border-radius: 1.5vh;
+
+  }
+  .Main-top{
+    height: 6vh;
+    width: 21vw;
+    margin-left: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .Main-top-left{
+    height: 6vh;
+    width: 7vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .Main-top-left>h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .Main-top-right{
+    height: 6vh;
+    width: 4vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  

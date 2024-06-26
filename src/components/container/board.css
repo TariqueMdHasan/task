@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.Board-Main{
+    height: 100vh;
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+}
+.Board-Top{
+    height: 13vh;
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.Board-Top-Up{
+    height: 6vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.Board-Top-Up>h2{
+    color: black;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 3vh;
+}
+.Board-Top-Down{
+    height: 6vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.Board-Top-Down>h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    font-size: 3.5vh;
+}
+ select{
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    font-size: 2vh;
+ }
+
+
+
+
+
+
+
+
+
+
+
+.Board-Bottom{
+    height: 82vh;
+    width: 85vw;
+    
+}

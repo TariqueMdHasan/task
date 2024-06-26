@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.Login-Main {
+    height: 100vh;
+    width: 100vw;
+    /* background-color: red; */
+    margin: -8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.Login-Left {
+    margin: 0;
+    padding: 0;
+    width: 60vw;
+    background-color: #17A2B8;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.Login-images {
+    max-height: 30vh;
+    max-width: 30vh;
+    background-color: #317F8B;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Art-image {
+    max-width: 50vh;
+    margin-top: 8vh;
+    padding: 0px;
+    margin-right: 2vh;
+}
+
+.Login-Left-Text {
+    max-height: 10vh;
+    max-width: 46vh;
+  
+    margin-top: 11vh;
+}
+
+.Login-Left-Text>h2 {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 3.5vh;
+    margin: 0;
+    color: #fff;
+}
+.Login-Left-Text>h4 {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.2vh;
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    margin-top: 1.5vh;
+}
+
+
+
+.Login-Right{
+    margin-left: 0;
+    padding: 0;
+    width: 40vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.Login-Right-Email{
+    width: 25vw;
+    height: 6vh;
+    border-radius: 1.3vh;
+    border: 1.5px solid #D0D0D0;
+    background: url(../assets/Group.png);
+    background-repeat: no-repeat;
+    background-size: 4.5vh;
+    background-position-y: center;
+    background-position-x: 1vh;
+    padding-left: 4vw;
+    outline: none;
+}
+.Login-Right-Password{
+    width: 25vw;
+    height: 6vh;
+    border-radius: 1.3vh;
+    border: 1.5px solid #D0D0D0;
+    background: url(../assets/lock.png);
+    background-repeat: no-repeat;
+    background-size: 4.5vh;
+    outline: none;
+    padding-left: 4vw;
+    background-position-x: 1vh;
+    background-position-y: center;
+}
+
+input::placeholder{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.2vh;
+    color: #828282;
+}
+#togglePassword{
+    width: 2vw;
+    padding: 0px;
+    margin-top: -5vh;
+    position: absolute;
+    margin-left: 26vw;
+    cursor: pointer;
+}
+.Login-Right>h2{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 4vh;
+}
+.btn{
+    height: 6vh;
+    width: 29.5vw;
+    border-radius: 3vh;
+    border: none;
+    cursor: pointer;
+
+    /* ext */
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.2vh;
+    color: #828282;
+}
+.login-btn-1{
+    background-color: #17A2B8;
+    color: #fff;
+    transition: all 0.3s ease 0s;
+}
+.login-btn-1:hover {
+    background-color: rgb(13, 111, 126);
+}
+.Register-btn{
+    border: 1px solid #17A2B8;
+    color: #17A2B8;
+    background-color: #fff;
+}
+.Login-Right>h4{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: #828282;
+    font-size: 2.2vh;
+}
+
+
+
+.Registration-Right{
+    margin-left: 0;
+    padding: 0;
+    width: 40vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Registration-Right>input{
+    width: 25vw;
+    height: 6vh;
+    border-radius: 1.3vh;
+    border: 1.5px solid #D0D0D0;
+    background-repeat: no-repeat;
+    background-size: 4.5vh;
+    outline: none;
+    padding-left: 4vw;
+    background-position-x: 1vh;
+    background-position-y: center;
+}
+.Registration-Right-Name{
+    background: url(../assets/Name.png);
+}
+.Registration-Right-Email{
+    background: url(../assets/Group.png);
+}
+.Registration-Right-Password{
+    background: url(../assets/lock.png);
+}
+.Registration-Right>h4{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: #828282;
+    font-size: 2.2vh;
+}
+.Registration-Right>h2{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 4vh;
+}

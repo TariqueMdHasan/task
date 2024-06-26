@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.Analytics-Main{
+    height: 100vh;
+    width: 85vw;
+    
+    display: flex;
+    flex-direction: column;
+}
+.Analytics-Main>h2{
+    font-family: "Open Sans", sans-serif;
+    font-size: 5vh;
+    font-weight: 600;
+    margin-left: 2vw;
+    margin-bottom: 1vh;
+}
+.Analytics-Main-Down{
+    display: flex;
+    flex-direction: row;
+}
+.Analytics-Main-Left, .Analytics-Main-Right{
+    height: 33vh;
+    width: 26vw;
+    border: none;
+    border-radius: 2vh;
+    background-color: #F9FCFF;
+    margin: 4vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Analytics-Main-Left>div, .Analytics-Main-Right>div{
+    height: 7vh;
+    width: 26vw;
+    margin: 0vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    height: 1.5vh;
+    width: 1.5vh;
+    background-color: #90C4CC;
+    margin-right: 1vw;
+    border-radius: 50%;
+
+}
+.Task-Name{
+    height: 7vh;
+    width: 21vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.Task-Name>h3{
+    font-family: "Open Sans", sans-serif;
+    font-size: 3vh;
+    font-weight: 600;
+    margin: 0;
+}
