@@ -59,7 +59,7 @@ const Modal = ({ show, onClose, onSubmit, editMode, existingData }) => {
       <div className="modal-content" onClick={(e) => e.stopPropagation()}>
 
 
-        <h2 className='title' >Title</h2>
+        <h2 className='title-name' >Title</h2>
         <div className="modal-header">
 
           <input
