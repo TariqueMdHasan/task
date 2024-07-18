@@ -58,7 +58,7 @@ function Login({ onLogin }){
                 onClick={togglePasswordVisibility}
                 />
                 <button class="login-btn-1 btn" onClick={onLogin}>Log in</button> <br />
-                <h4>Have no account yet?</h4> <br />
+                <h4>Have no account yet? (click on the Login to enter whitout filling any input)</h4> <br />
                 <button class="Register-btn btn" onClick={showRegister}>Register</button>
             </div>
             ) : ( 
